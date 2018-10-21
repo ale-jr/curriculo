@@ -6,8 +6,11 @@ const style = require('./style.js')
 
 const createDoc = (lang) => {
 
+  //informações gerais
+  const info = constants.filterLang(constants.cv_data.INFO,lang)
+
   //Cariação do documento
-  var doc = new PDFKit(constants.document)
+  var doc = new PDFKit({...constants.document, author: info.name})
 
 
   //Definições de tamanhos do documento
@@ -15,7 +18,7 @@ const createDoc = (lang) => {
   const height = doc.page.height
   const sidebar_width = width * (style.sidebar.width / 100)
 
-  const filename = `${constants.output.split('.')[0]} ${lang}.${constants.output.split('.')[1]}`
+  const filename = `${constants.output.split('.')[0]} - ${info.name} ${lang}.${constants.output.split('.')[1]}`
   //Cria o stream
   doc.pipe(fs.createWriteStream(filename))
 

@@ -1,6 +1,6 @@
 module.exports ={
   langs: ['PT-BR','EN'], //Essas serão as linguas a serem procuradas lá no ./cv_data
-  output: 'cv/curriculum.pdf', //nome do arquivo de saida (antes do .pdf vai a lingua de forma automática)
+  output: 'cv/Curriculum.pdf', //nome do arquivo de saida (antes do .pdf vai a lingua de forma automática)
   skillcount: 8, //nas habilidades, essa será a quantidade máxima das 'bolinhas' dos skills
   document: { //configurações do documento do PDFKit
     size: 'A4',
