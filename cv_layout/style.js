@@ -1,4 +1,5 @@
 module.exports = {
+  //barra lateral
   sidebar: {
     width: 38, //porcentagem da barra lateral
     padding: 10 ,
@@ -7,6 +8,7 @@ module.exports = {
     text: '#E3E3E6',
     icon_padding: 35
   },
+  //área principal
   main: {
     background: '#FFF9FB',
     text: '#252627',
@@ -16,6 +18,7 @@ module.exports = {
     details_padding: 100,
     skill_padding: 30
   },
+  //temanhos dos textos ou ícones
   sizes:{
     h1: 23,
     h2: 18,
