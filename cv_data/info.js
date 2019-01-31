@@ -4,7 +4,8 @@ module.exports = [
     lang: 'PT-BR',
     name: 'Alexandre Fernandes Junior',
     position: 'Desenvolvedor Full Stack',
-    objective: 'Participar da equipe de desenvolvimento de forma ativa afim de entregar a melhor solução, bem como aprender mais com a equipe, me tornando um desenvolvedor melhor ',
+    objective: 'Fazer parte de uma equipe engajada em desenvolver tecnologias para simplificar e otimizar processos, entregando a melhor solução para fazer clientes e colaboradores economizarem tempo e recursos',
+    about:'Sou um cara que quando está andando por ai não para de observar e pensar em formas de melhorar a vida das pessoas usando código, inclusive este CV foi escrito com algumas linhas de código ;)',
     details: [
       {
         icon: {
@@ -18,7 +19,7 @@ module.exports = [
           font: constants.fonts.FA_SOLID ,
           icon: constants.icons.FAS_MAP
         },
-        info: 'Ribeirão Preto'
+        info: 'Santo André'
       },
       {
         icon: {
@@ -62,7 +63,6 @@ module.exports = [
     name: 'Alexandre Fernandes Junior',
     position: 'Full Stack Developer',
     objective: 'Be part of the development team in an active way in order to deliver the best solution, as well as learn more from the team, becoming a better developer',
-    objective: '',
     details: [
       {
         icon: {
@@ -76,7 +76,7 @@ module.exports = [
           font: constants.fonts.FA_SOLID ,
           icon: constants.icons.FAS_MAP
         },
-        info: 'Ribeirão Preto'
+        info: 'Santo André'
       },
       {
         icon: {

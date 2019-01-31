@@ -53,7 +53,7 @@ module.exports = function(doc,width,height,sidebar_width,lang){
 
   //Objetivo
   doc.font(constants.fonts.FA_SOLID)
-  .moveDown()
+  .moveDown(0.5)
   .fontSize(sizes.h1)
   .text(constants.icons.FAS_PLUS,sidebar.padding,undefined)
   .moveUp()
@@ -61,7 +61,20 @@ module.exports = function(doc,width,height,sidebar_width,lang){
   .text(translation.objectives,sidebar.padding+ 30,undefined)
   .fontSize(sizes.h3)
   .text(info.objective,sidebar.padding,undefined,{...sidebar_text, align: 'left'})
-  .moveDown(1)
+
+  //Sobre
+
+  if(!info.about) return
+
+  doc.font(constants.fonts.FA_SOLID)
+  .moveDown(0.5)
+  .fontSize(sizes.h1)
+  .text(constants.icons.FAS_SMILE,sidebar.padding,undefined)
+  .moveUp()
+  .font(constants.fonts.ROBOTO)
+  .text(translation.about,sidebar.padding+ 30,undefined)
+  .fontSize(sizes.h3)
+  .text(info.about,sidebar.padding,undefined,{...sidebar_text, align: 'left'})
 
 
 

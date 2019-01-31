@@ -5,7 +5,8 @@ module.exports = [
     education     : 'Formação',
     experience    : 'Experiência',
     projects      : 'Projetos',
-    skills        : 'Habilidades'
+    skills        : 'Habilidades',
+    about         : 'Sobre'
   },
   {
     lang          : 'EN',
@@ -13,6 +14,7 @@ module.exports = [
     education     : 'Education',
     experience    : 'Experience',
     projects      : 'Projects',
-    skills        : 'Skills'
+    skills        : 'Skills',
+    about         : 'About'
   }
 ]

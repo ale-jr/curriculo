@@ -32,6 +32,7 @@ module.exports ={
     FAS_CIRCLE: '',
     FAS_DOT_CIRCLE: '',
     FAS_TRUCK: '',
+    FAS_SMILE: '',
     FAB_GITHUB: '',
     FAB_LINKEDIN: '',
   },
